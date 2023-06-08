@@ -1,0 +1,36 @@
+--> EPIsode 2
+
+  package.json file is a configuration of npm
+
+  code bundlers -- vit, parcel, webpack
+
+  devDependencies ---> for developing app only
+
+  Dependencies --->  for both development and production also.
+
+    Difference between tilda(~) and caret(^) in package.json ?
+      ""        ""      package.json and package.lockjson  ?
+    you can recreate node modules with help of package and package.lockjson
+  What is the command npx parcel index.html?
+
+# parcel
+    - dev build
+    - local Server
+    - HMR ( Hot module Replacement)
+    - caching faster builds
+    - file watching algorithm - written in C++
+    - Image optimization
+    - minify code
+    - Bundling
+    - compress
+    - code splitting
+    - Consistance Hashing
+    - Differential Bundling - to support older browsers.
+    - diagnostics
+    - error handlig
+    - Tree shaking code
+    - refer https://parceljs.org/ 
+
+# browsers list
+    - refer https://browserslist.dev/?q=bGFzdCAyIHZlcnNpb25z
+    - https://github.com/browserslist/browserslist#query-composition
