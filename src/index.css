@@ -1,0 +1,65 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+.logo {
+    width: 160px;
+    margin: 6px;
+}
+.navContainers > ul {
+     display: flex;
+     list-style-type: none;
+}
+.navContainers> ul > li {
+    margin: 6px;
+    padding: 4px;
+}
+.navContainers{
+    margin-right: 12px;
+}
+.restCard{
+    background-color: #f0f0f0;
+    width: 210px;
+    padding: 4px;
+    margin: 4px;
+}
+
+.restCard:hover{
+    border: 1px solid black;
+    cursor: pointer;
+}
+.restContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.restCuisines{
+    width: 18opx;
+}
+.Shimmer-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.Shimmer-card{
+    background-color: #f0f0f0;
+    margin: 10px;
+    width: 200px;
+    height: 300px;
+}
+.loginButton{
+    width: 60px;
+    cursor: pointer;
+}
+.Search{
+    display: flex;
+    gap: 10px;
+}
+.section{
+    display: flex;
+    gap: 100px;
+    padding: 10px;
+}
+.userClass{
+    padding: 6px;
+    border: 1px solid black;
+}

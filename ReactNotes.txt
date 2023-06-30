@@ -34,3 +34,67 @@
 # browsers list
     - refer https://browserslist.dev/?q=bGFzdCAyIHZlcnNpb25z
     - https://github.com/browserslist/browserslist#query-composition
+
+---> EPIsode 3
+
+    React.createElement => ReactElement - JS Object => rendered HTML Element.
+
+    JSX is not Html in javascript.
+    JSX is HTML (or XML) like syntax.
+    JSX is transpiled before it reaches to JS engine ( with help of Babel ( part of Parcel package)).
+    JSX => Babel transpiles to  React.createElement => ReactElement - JS Object => rendered HTML Element.
+    Check  the Babel website documentation
+
+    How to write html attributes in JSX?
+
+    React Element , Component, Componentcomposition ?
+
+    JSx help to remove cross sites scripting code
+    JSX expression must have one root(parent) element.
+    React fragment behaves like empty tag.
+
+Episode -4 
+    --> Food Ordering app
+      -- props
+      --keys
+      -- React fiber, reconciliation ?
+      -- Can we use index's as keys in react?
+      -- config driven ui
+          - In a configuration-driven UI, the layout, styles,
+            and other properties of UI elements are defined in a configuration file or database,
+            which can be easily modified without requiring changes to the codebase.
+
+      --- rest.cloudinary.com ( CDN) -- cloudinary imageID.
+/* 
+App--
+   Header-- logo, Home, My account, Settings, Contact
+   Main-- Search
+            Card Component --- log, name, rating, address
+    Footer -- copy right, links, Address, contacts
+*/
+
+
+Episode -5  ---
+         -> useState Hook
+         -> React Fiber ( reconciliation)
+         --> VDOM
+         - rendering
+
+Episode - 6 
+        
+        --> Monolith and MicroServices Architecthure
+        --> Loads -- render -- API call -- Response loaded (re-render)
+        --> useEffect(); - [] once in a initial render.
+        --> cross origin error ( CORS POLICY )
+        --> Shimmer UI (fake pages)
+        --> Whenever react state variables updates, react triggers reconciliation ( re-render the Component)
+
+Episode - 7 
+
+        --> Routing concepts -- react-routet-documentation
+                  createBrowserRouter, RouterProvider, useErrorRouter, Outlet, Link , Children Routing, useParams
+        --> Single PAge Application concept proved from link tag example.
+        --> Server side Routing -  When we click on anchor tag About. html make an api call and fetching the data and render on to UI.
+        --> Client side Routing - No api call , All components are loaded intially . we change paths with help of link tag of react-router-dom.
+
+        --> Dynamic Routing - 
